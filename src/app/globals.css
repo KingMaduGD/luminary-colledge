@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0B2545;
+  --color-accent: #C9962C;
+  --color-surface: #F8F5EF;
+  --color-text-base: #1A1A2E;
+  --color-muted: #6B7280;
+
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-jakarta);
+  --font-accent: var(--font-montserrat);
+}
+
+:root {
+  --font-cormorant: "Cormorant Garamond", "Georgia", "Times New Roman", serif;
+  --font-jakarta: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-montserrat: "Montserrat", "Arial", "Helvetica Neue", sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #ffffff;
+    color: #1A1A2E;
+    font-family: var(--font-jakarta);
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+  width: max-content;
+}
