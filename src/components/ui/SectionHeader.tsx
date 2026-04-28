@@ -23,7 +23,7 @@ export default function SectionHeader({
         <span
           className={cn(
             "text-sm font-semibold tracking-widest uppercase",
-            light ? "text-[#C9962C]" : "text-[#C9962C]"
+            light ? "text-[#C9962C]/80" : "text-[#C9962C]"
           )}
           style={{ fontFamily: "var(--font-label), system-ui, sans-serif" }}
         >
