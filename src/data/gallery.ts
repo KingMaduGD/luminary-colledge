@@ -1,0 +1,28 @@
+import { GalleryItem } from "@/types";
+
+export const galleryItems: GalleryItem[] = [
+  { id: 1, title: "Chemistry Lab Session", category: "Academics", image: "https://picsum.photos/seed/gal1/800/600", width: 800, height: 600 },
+  { id: 2, title: "Mathematics Olympiad", category: "Academics", image: "https://picsum.photos/seed/gal2/800/600", width: 800, height: 600 },
+  { id: 3, title: "Library Reading Hour", category: "Academics", image: "https://picsum.photos/seed/gal3/800/600", width: 800, height: 600 },
+  { id: 4, title: "ICT Computer Lab", category: "Academics", image: "https://picsum.photos/seed/gal4/800/600", width: 800, height: 600 },
+  { id: 5, title: "JSS1 Orientation Class", category: "Academics", image: "https://picsum.photos/seed/gal5/800/600", width: 800, height: 600 },
+  { id: 6, title: "Science Fair Exhibition", category: "Academics", image: "https://picsum.photos/seed/gal6/800/600", width: 800, height: 600 },
+  { id: 7, title: "100m Sprint Final", category: "Sports", image: "https://picsum.photos/seed/gal7/800/600", width: 800, height: 600 },
+  { id: 8, title: "Football Inter-House Match", category: "Sports", image: "https://picsum.photos/seed/gal8/800/600", width: 800, height: 600 },
+  { id: 9, title: "Basketball Team Practice", category: "Sports", image: "https://picsum.photos/seed/gal9/800/600", width: 800, height: 600 },
+  { id: 10, title: "Athletics Day", category: "Sports", image: "https://picsum.photos/seed/gal10/800/600", width: 800, height: 600 },
+  { id: 11, title: "Swimming Gala", category: "Sports", image: "https://picsum.photos/seed/gal11/800/600", width: 800, height: 600 },
+  { id: 12, title: "Table Tennis Tournament", category: "Sports", image: "https://picsum.photos/seed/gal12/800/600", width: 800, height: 600 },
+  { id: 13, title: "Annual Prize Giving Day", category: "Events", image: "https://picsum.photos/seed/gal13/800/600", width: 800, height: 600 },
+  { id: 14, title: "Graduation Ceremony 2024", category: "Events", image: "https://picsum.photos/seed/gal14/800/600", width: 800, height: 600 },
+  { id: 15, title: "Cultural Day Celebration", category: "Events", image: "https://picsum.photos/seed/gal15/800/600", width: 800, height: 600 },
+  { id: 16, title: "Independence Day Assembly", category: "Events", image: "https://picsum.photos/seed/gal16/800/600", width: 800, height: 600 },
+  { id: 17, title: "Alumni Homecoming", category: "Events", image: "https://picsum.photos/seed/gal17/800/600", width: 800, height: 600 },
+  { id: 18, title: "Founders Day 2023", category: "Events", image: "https://picsum.photos/seed/gal18/800/600", width: 800, height: 600 },
+  { id: 19, title: "School Main Building", category: "Facilities", image: "https://picsum.photos/seed/gal19/800/600", width: 800, height: 600 },
+  { id: 20, title: "School Library", category: "Facilities", image: "https://picsum.photos/seed/gal20/800/600", width: 800, height: 600 },
+  { id: 21, title: "Science Laboratories", category: "Facilities", image: "https://picsum.photos/seed/gal21/800/600", width: 800, height: 600 },
+  { id: 22, title: "Sports Complex", category: "Facilities", image: "https://picsum.photos/seed/gal22/800/600", width: 800, height: 600 },
+  { id: 23, title: "School Auditorium", category: "Facilities", image: "https://picsum.photos/seed/gal23/800/600", width: 800, height: 600 },
+  { id: 24, title: "School Gardens & Grounds", category: "Facilities", image: "https://picsum.photos/seed/gal24/800/600", width: 800, height: 600 },
+];
